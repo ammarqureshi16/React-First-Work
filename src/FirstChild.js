@@ -6,7 +6,7 @@ function First(props) {
 
   return (
     <div>
-      <h2>{naam} </h2>
+      {/* <h2>{naam} </h2>
       {props.arrobj1.map(function (item) {
         return (
           <ul>
@@ -14,7 +14,7 @@ function First(props) {
             <li> {item.age} </li>
           </ul>
         );
-      })}
+      })} */}
     </div>
   );
 }

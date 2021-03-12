@@ -1,14 +1,15 @@
 import React from "react";
 
 function Two(props) {
-  console.log(props);
-  let naam = "User Data Two";
+  // console.log(props);
+  // let naam = "User Data Two";
   return (
     <div>
-      <h3>{naam}</h3>
+      {/* <h3>{naam}</h3>
+      
       {props.arrobj2.map(function (item) {
-          return(
-              <ul>
+        return(
+            <ul>
                   <li>
                       {item.user}
                   </li>
@@ -18,7 +19,7 @@ function Two(props) {
               </ul>
           )
           
-      })}
+      })} */}
     </div>
   );
 }
