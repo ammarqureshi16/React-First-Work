@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FirstChild from "./FirstChild";
-import Childtwo from "./Childtwo";
-import Off from "./Asset/Imag/off.jpg";
-import On from "./Asset/Imag/on.jpeg";
+// import FirstChild from "./FirstChild";
+// import Childtwo from "./Childtwo";
+// import Off from "./Asset/Imag/off.jpg";
+// import On from "./Asset/Imag/on.jpeg";
 
 // const arrobj1 = [
 //   { user: "Ammar Qureshi", age: 17 },
@@ -20,36 +20,8 @@ function Parent() {
   // let title1 = "I am Osama";
   // let title2 = "I am Ammar";
   // const [Bulb, setBulb] = useState(false);
-
-  const [user, setUser] = useState("");
-
-  const val = (e) => {
-    const inp = e.target.value;
-    console.log(inp);
-    setUser(inp);
-  };
-
-  const submit = () => {
-    console.log("state--->>" + user);
-    localStorage.setItem("userName", user);
-  };
-
-  const [hide, setHide] = useState(false);
-
-  const getName = localStorage.getItem("userName", user);
-
-  const show = () => {
-    console.log("getName--->>" + getName);
-    setHide(true);
-  };
-
   return (
     <div>
-      <input placeholder="Enter Email :" onChange={val} />
-      <button onClick={submit}>Submit</button>
-      <button onClick={show}>{user === true ? show : ""}Show</button>
-      {hide ? <p> {getName}</p> : ""}
-
       {/* <h1>
         {naam}
         {arrobj2[2].user}
