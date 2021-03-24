@@ -1,16 +1,17 @@
 import React from "react";
-import Increteament from "./Increteament";
-import Local from "./LocalStorage";
 import Parent from "./Parent";
-import Signup from "./Signup";
-// import Childtwo from './Childtwo'z
+import First from "./FirstChild";
+import Childtwo from './Childtwo'
+// import Local from "./LocalStorage";
 
-function App() {
+function App() {    
   return (
-    <Parent/>
-    // <Increteament/>
-    // <Signup/>
-    // <Local/>
+    <div>
+     {/* <Parent/> */}
+     {/* <First/> */}
+     <Childtwo/>
+     {/* <Local/> */}
+    </div>
    
   )
 }

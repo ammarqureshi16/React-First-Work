@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import FirstChild from "./FirstChild";
-// import Childtwo from "./Childtwo";
 // import Off from "./Asset/Imag/off.jpg";
 // import On from "./Asset/Imag/on.jpeg";
 
@@ -20,13 +18,13 @@ function Parent() {
   // let title1 = "I am Osama";
   // let title2 = "I am Ammar";
   // const [Bulb, setBulb] = useState(false);
+ 
   return (
-    <div>
+   <div>
       {/* <h1>
         {naam}
         {arrobj2[2].user}
       </h1>
-
       {arrobj2.map(function (item) {
        return  <h1>
           {item.user}
